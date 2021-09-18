@@ -105,4 +105,4 @@ O script pode:
 - 📄 <b>README.md</b>: documentação do nosso template
 
 [documentação]: https://www.notion.so/d3-company/D3-Lib-0a7848f6d60347eab1191e9ba9d5663f
-[repositorio]: https://www.notion.so/d3-company/D3-Lib-0a7848f6d60347eab1191e9ba9d5663f
+[repositorio]: https://github.com/d3estudio/d3-lib
