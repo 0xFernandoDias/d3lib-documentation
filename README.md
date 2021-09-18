@@ -28,7 +28,7 @@ Para executar a maioria dos scripts presentes na biblioteca, você vai precisar 
 - Entre no [repositorio] e clique em `Use this template` </br>
 <i>... Comentar sobre permissões com o repositório da D3</i>
 
-- Você deve setar o Owner com o seu próprio USER, depois defina um nome para o repositório, crie um repo privado de preferencia, não esqueça de clicar em `Include all branches`
+- Você deve setar o Owner com o seu próprio USER, depois defina um nome para o repositório, crie um repo privado de preferencia, selecione `Include all branches`
 
 - Clone o repositório, exemplo:<br/>
 `git clone git@github.com:nand0diaz/d3-definitivetemplate.git`</br>
