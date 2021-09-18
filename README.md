@@ -34,7 +34,7 @@ Para executar a maioria dos scripts presentes na biblioteca, você vai precisar 
 `git clone git@github.com:nand0diaz/d3-definitivetemplate.git`</br>
 <i>… Verificar se preciso digitar mais coisas”</i>
 <br/><br/>
-O template contém pastas e arquivos, use o `Bash` para executar os `scripts shells` do template, por exemplo:
+O template contém pastas e arquivos, use o `Bash` para executar os <b>scripts shells</b> do template, por exemplo:
 `bash clone.sh`
 - Com o terminal, abra o diretório do template
 - Agora você pode usar o bash de seu terminal para executar um dos 4 principais scripts `build` `clone` `d3shell` `deploy`
