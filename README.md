@@ -77,19 +77,19 @@ O script pode:
 
 - 📄 <b>.gitignore</b><br/>
 
-- 📀 <b>clone.sh</b>: contém os scripts que fará a clonagem dos repositórios que você inseriu no `.config`, ele vai procurar em `.d3-lib/clone_module.sh` os scripts que serão executados, o script realiza a clonagem do repositório utilizando `SSH`, então para o uso do mesmo certifique-se de estar com sua chave SSH configurada<br/>
+- 💿 <b>clone.sh</b>: contém os scripts que fará a clonagem dos repositórios que você inseriu no `.config`, ele vai procurar em `.d3-lib/clone_module.sh` os scripts que serão executados, o script realiza a clonagem do repositório utilizando `SSH`, então para o uso do mesmo certifique-se de estar com sua chave SSH configurada<br/>
 💡 Se o repositório clonado tiver outro arquivo `clone.sh` na raiz ele também será executado, e vai baixar outros repositórios, esses repositórios serão as dependencias “nested dependence”<br/>
 
-- 📀 <b>build.sh</b>:  contém os scripts que:
+- 💿 <b>build.sh</b>:  contém os scripts que:
     - Executa a clonagem dos repositórios `bash clone.sh`
     - Da o build em todas imagens dos repositórios `docker-compose -f docker-compose.example.yml build`
     - Da UP em todas as imagens `docker-compose -f docker-compose.example.yml up -d`
     tanto o build quanto o UP usam o arquivo `docker-compose.example.yml` para o `Docker compose`
     * Os scripts são opcionais, se não quiser usar um em especifico você pode digitar `#` para comenta-lo<br/><br/>
 
-- ... 📀 <b>d3shell.sh</b>: ajuda a configurar o SSH<br/>
+- ... 💿 <b>d3shell.sh</b>: ajuda a configurar o SSH<br/>
 
-- ... 📀 <b>deploy.sh</b>: utilize o script `deploy.sh` para automatizar o deploy de suas aplicações, podendo também fazer o deploy automático apartir de sua maquina<br/>
+- ... 💿 <b>deploy.sh</b>: utilize o script `deploy.sh` para automatizar o deploy de suas aplicações, podendo também fazer o deploy automático apartir de sua maquina<br/>
 
 - ⚙️ <b>.docker-compose.example.yml</b>: configuração do Docker compose:
     - Pasta do projeto
