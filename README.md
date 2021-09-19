@@ -10,26 +10,26 @@ Essa biblioteca é capaz de tornar a experiência no momento da criação de nov
 - Start dos containers
 - Deploy
 - …
-- …
+
 
 <i>Para entender melhor, visite a [documentação] da biblioteca</i>
 <br/><br/>
 
 ## 🛠️ Tecnologias utilizadas
 - `Bash`
-- `AWS???`
-- `Docker???`
+- `AWS`???
+- `Docker`???
 - ...
-- ...
-</br></br>
+
+</br> 
 
 ## 🔎 Pré-requisitos <br/>
 Para executar a maioria dos scripts presentes na biblioteca, você vai precisar de uma máquina que possua:
 - `Git`
 - `Bash`
 
-> <i>Recomendamos o uso do `Docker` para isolar a sua aplicação da máquina
-</br></i>
+> <i>Recomendamos o uso do `Docker` para isolar a sua aplicação da máquina</i>
+</br>
 
 ## ▶️ Getting Started
 - Entre no [repositorio] e clique em `Use this template` </br>
@@ -44,14 +44,9 @@ Para executar a maioria dos scripts presentes na biblioteca, você vai precisar 
 $ git clone git@github.com:nand0diaz/d3-definitivetemplate.git
 
 ```
-<br/>
 
 <i>… Verificar se preciso digitar mais coisas”</i>
 <br/><br/>
-O template contém pastas e arquivos, use o `bash` para executar os <b>scripts shells</b> do template, por exemplo:
-```bash 
-$ bash clone.sh
-```
 - Com o terminal, abra o diretório do template
 ```bash
 $ cd d3-lib
