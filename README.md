@@ -1,5 +1,5 @@
  
-## D3 LIB ✨ </br>
+<h1  align="center">D3 LIB ✨</h1></br>
 O template facilita a configuração do <b>enviroment</b>
 de nossos projetos, automatizando muita coisa, caso use o template o seu projeto será envolvido por ele, ou seja, seu projeto vai ficar dentro dele </br>
 Essa biblioteca é capaz de tornar a experiência no momento da criação de novos projetos mais padronizada, fluída e prática. Utilizando scripts auxiliares, buscamos facilitar o uso das ferramentas e tecnologias presentes no dia a dia dos desenvolvedores, como:
@@ -26,7 +26,7 @@ Para executar a maioria dos scripts presentes na biblioteca, você vai precisar 
 - `Git`
 - `Bash`
 
-💡 <i>Recomendamos o uso do `Docker` para isolar a sua aplicação da máquina
+> <i>Recomendamos o uso do `Docker` para isolar a sua aplicação da máquina
 </br></br></i>
 
 ## ▶️ Getting Started
@@ -68,8 +68,8 @@ $ bash clone.sh
 	- Iniciar os containers
 - Será criado uma pasta dentro do template com os repositórios clonados, <i>você pode escolher o nome da pasta pelo arquivo `.config`</i>, dentro dessa pasta vai ter uma outra chamada `d3-dummy` que é exatamente o repositório baixado
 - Se você digitar `localhost:80` no navegador você podera ver que já vai estar rodando a imagem de um segundo repositório que foi baixado através do primeiro “um puxou o outro”, esse segundo repositório contém apenas um simples `HTML`<br><br>
-💡 <i>Dentro do arquivo `.config` do primeiro repositório contém as informações para baixar o segundo, que é o `d3-dummy2`</i><br/>
-💡 <i>Dentro do arquivo `docker-compose.example.yml` contem as informações do Docker, por exemplo: as portas que irão rodar</i><br/>
+> <i>Dentro do arquivo `.config` do primeiro repositório contém as informações para baixar o segundo, que é o `d3-dummy2`</i><br/>
+> <i>Dentro do arquivo `docker-compose.example.yml` contem as informações do Docker, por exemplo: as portas que irão rodar</i><br/>
 
 
 ```bash
@@ -116,7 +116,7 @@ $ bash clone.sh
 - 📄 <b>.gitignore</b><br/>
 
 - 💿 <b>clone.sh</b>: contém os scripts que fará a clonagem dos repositórios que você inseriu no `.config`, ele vai procurar em `.d3-lib/clone_module.sh` os scripts que serão executados, <i>o script realiza a clonagem do repositório utilizando `SSH`, então para o uso do mesmo certifique-se de estar com sua chave SSH configurada</i><br/>
-💡 <i>Se o repositório clonado tiver outro arquivo `clone.sh` na raiz ele também será executado, e vai baixar outros repositórios, esses repositórios serão as dependencias “nested dependence”</i><br/>
+> <i>Se o repositório clonado tiver outro arquivo `clone.sh` na raiz ele também será executado, e irá baixar outros repositórios, esses repositórios serão as dependencias “nested dependence”</i><br/>
 
 - 💿 <b>build.sh</b>:  contém os scripts que:
     - Executa a clonagem dos repositórios 
