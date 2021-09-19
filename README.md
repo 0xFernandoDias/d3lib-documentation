@@ -64,7 +64,7 @@ $ git clone git@github.com:d3estudio/d3-lib.git
 
 $ cd d3-lib
 
-# Inicie o script da clonagem
+# Inicie o script shell que: clona os repositórios, faz o build das imgs e inicia os containers
 
 $ bash clone.sh
 
