@@ -61,10 +61,11 @@ $ bash clone.sh
 ```
 
 <i>ele irá clonar os repositórios que você digitou no arquivo `.config`</i><br/>
-- O script pode:<br/>
+- O script vai:<br/>
 	- Clonar repositórios <i>inclusive a `branch` `hash` `path` especificas</i>
 	- <i>... Build Docker compose images</i>
 	- Iniciar os containers
+	
 - Será criado uma pasta dentro do template com os repositórios clonados, <i>você pode escolher o nome da pasta pelo arquivo `.config`</i>, dentro dessa pasta vai ter uma outra chamada `d3-dummy` que é exatamente o repositório baixado
 - Se você digitar `localhost:80` no navegador você podera ver que já vai estar rodando a imagem de um segundo repositório que foi baixado através do primeiro “um puxou o outro”, esse segundo repositório contém apenas um simples `HTML`<br/>
 > <i>Dentro do arquivo `.config` do primeiro repositório contém as informações para baixar o segundo, que é o `d3-dummy2`</i><br/>
