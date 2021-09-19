@@ -1,5 +1,5 @@
  
-<h1  align="center">D3 LIB ✨</h1></br>
+<h1  align="center">D3 LIB ✨</h1>
 O template facilita a configuração do <b>enviroment</b>
 de nossos projetos, automatizando muita coisa, caso use o template o seu projeto será envolvido por ele, ou seja, seu projeto vai ficar dentro dele </br>
 Essa biblioteca é capaz de tornar a experiência no momento da criação de novos projetos mais padronizada, fluída e prática. Utilizando scripts auxiliares, buscamos facilitar o uso das ferramentas e tecnologias presentes no dia a dia dos desenvolvedores, como:
