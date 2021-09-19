@@ -29,7 +29,7 @@ Para executar a maioria dos scripts presentes na biblioteca, você vai precisar 
 - `Bash`
 
 > <i>Recomendamos o uso do `Docker` para isolar a sua aplicação da máquina
-</br></br></i>
+</br></i>
 
 ## ▶️ Getting Started
 - Entre no [repositorio] e clique em `Use this template` </br>
