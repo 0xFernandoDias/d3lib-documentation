@@ -14,7 +14,7 @@ Para entender melhor, visite a [documentação] da biblioteca
 
 ## 🛠️ Tecnologias utilizadas
 - `Bash`
-- `AWS???'
+- `AWS???`
 - `Docker???`
 - ...
 - ...
