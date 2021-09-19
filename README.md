@@ -14,6 +14,10 @@ Para entender melhor, visite a [documentação] da biblioteca
 
 ## 🛠️ Tecnologias utilizadas
 - `Bash`
+- `AWS???'
+- `Docker???`
+- ...
+- ...
 </br></br>
 
 ## 🔎 Pré-requisitos <br/>
@@ -48,7 +52,23 @@ O script pode:
 - Será criado uma pasta dentro do template com os repositórios clonados, você pode escolher o nome da pasta pelo arquivo `.config`, dentro dessa pasta vai ter uma outra chamada `d3-dummy` que é exatamente o repositório baixado
 - Se você digitar `localhost:80` no navegador você podera ver que já vai estar rodando a imagem de um segundo repositório que foi baixado através do primeiro “um puxou o outro”, esse segundo repositório contém apenas um simples `HTML`<br><br>
 💡 Dentro do arquivo `.config` do primeiro repositório contém as informações para baixar o segundo, que é o `d3-dummy2`<br/>
-💡 Dentro do arquivo `docker-compose.example.yml` contem as informações do Docker, por exemplo: as portas que irão rodar
+💡 Dentro do arquivo `docker-compose.example.yml` contem as informações do Docker, por exemplo: as portas que irão rodar<br/>
+
+```bash
+
+# Clone o repositório na sua máquina
+
+$ git clone git@github.com:d3estudio/d3-lib.git
+
+# Entre no diretório recém clonado
+
+$ cd d3-lib
+
+# Inicie o script da clonagem
+
+$ bash clone.sh
+
+```
 
 <i>... Continuar o step-by-step de como usar o d3shell e o deploy </i>
 <br/><br/>
